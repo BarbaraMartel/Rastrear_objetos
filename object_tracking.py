@@ -12,7 +12,7 @@ while True:
     key = cv2.waitKey(25)
 
     if key == 32:
-        print("Stopped!")
+        print("¡Alto!")
         break
 
 
