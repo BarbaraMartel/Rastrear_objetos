@@ -7,7 +7,7 @@ video = cv2.VideoCapture("bb3.mp4")
 while True:
     check,img = video.read()   
 
-    cv2.imshow("result",img)
+    cv2.imshow("resultado",img)
             
     key = cv2.waitKey(25)
 
